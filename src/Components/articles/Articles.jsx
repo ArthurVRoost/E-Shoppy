@@ -12,10 +12,10 @@ export default function Articles() {
                 </div>
                 
                 <div className='articlesDivText'>
-                    <h3>Lookism</h3>
-                    <p>Prix: €14,25</p>
-                    <p>Stock: 3</p>
-                    <button>Acheter</button>
+                    <h3 className="articlesH3">Lookism</h3>
+                    <p className="articlesP">Prix: €14,25</p>
+                    <p className="articlesP2">Stock: 3</p>
+                    <button className="articlesBtn">Acheter</button>
                 </div>
             </div>
             <div className='articlesDiv1'>
@@ -24,10 +24,10 @@ export default function Articles() {
                 </div>
                 
                 <div className='articlesDivText'>
-                    <h3>WindBreaker</h3>
-                    <p>Prix: €14,25</p>
-                    <p>Stock: 10</p>
-                    <button>Acheter</button>
+                    <h3 className="articlesH3">WindBreaker</h3>
+                    <p className="articlesP">Prix: €14,25</p>
+                    <p className="articlesP2">Stock: 10</p>
+                    <button className="articlesBtn">Acheter</button>
                 </div>
             </div>
             <div className='articlesDiv1'>
@@ -36,10 +36,10 @@ export default function Articles() {
                 </div>
 
                 <div className='articlesDivText'>
-                    <h3>Tower Of God</h3>
-                    <p>Prix: €14,25</p>
-                    <p>Stock: 6</p>
-                    <button>Acheter</button>
+                    <h3 className="articlesH3">Tower Of God</h3>
+                    <p className="articlesP">Prix: €14,25</p>
+                    <p className="articlesP2">Stock: 6</p>
+                    <button className="articlesBtn">Acheter</button>
                 </div>
             </div>
         </div>

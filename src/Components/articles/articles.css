@@ -1,15 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 .divArticles{
     display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 5%;
 }
 .articlesDiv1{
-    height: 500px;
+    height: 550px;
     width: 300px;
     border: 1px solid black;
-    
+    border-radius: 15px;
 }
 .articlesImg{
     height: 300px;
     width: 200px;
+    margin-top: 20px;
+    transition: transform 0.5s ease;
+}
+.articlesImg:hover{
+    transform: scale(1.05);
 }
 .articlesDivImg{
     display: flex;
@@ -18,4 +27,16 @@
 }
 .articlesDivText{
     margin-left: 15%;
+    font-family: "Rubik";
+}
+.articlesH3{
+    font-weight: 100;
+}
+.articlesP{
+    font-weight: 200;
+    margin-top: 13%;
+}
+.articlesP2{
+    font-weight: 200;
+    margin-top: 5%;
 }
