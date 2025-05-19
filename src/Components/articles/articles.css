@@ -11,7 +11,7 @@
     width: 300px;
     border: 1px solid white;
     border-radius: 15px;
-    transition: transform 0.5s ease;
+    transition: transform 0.3s ease;
 }
 .articlesDiv1:hover{
     transform: scale(1.1);
@@ -20,7 +20,7 @@
     height: 300px;
     width: 200px;
     margin-top: 20px;
-    transition: transform 0.5s ease;
+    transition: transform 0.3s ease;
     border-radius: 5px;
 }
 .articlesImg:hover{
@@ -37,7 +37,7 @@
 }
 .articlesH3{
     font-weight: 100;
-    transition: transform 0.5s ease;
+    transition: transform 0.3s ease;
 }
 .articlesH3:hover{
     color: hsla(178, 100%, 50%, 0.518);
@@ -46,7 +46,7 @@
 .articlesP{
     font-weight: 200;
     margin-top: 13%;
-    transition: transform 0.5s ease;
+    transition: transform 0.3s ease;
 }
 .articlesP:hover{
     color:hsla(178, 100%, 50%, 0.518);
@@ -86,7 +86,8 @@
 @media (max-width:576px) {
     .divArticles{
         flex-direction: column;
-        margin-left: 20%;
+        margin-left: 17%;
+        margin-bottom: 15%;
     }
 }
 @media (min-width:577px) and (max-width:768px) {
