@@ -2,7 +2,7 @@ import './articles.css'
 import Lookism from "/src/assets/images/lookism.webp"
 import WB from "/src/assets/images/windbreaker.webp"
 import TOG from "/src/assets/images/towerofgod.jpg"
-export default function Articles() {
+export default function Articles({stock}) {
     return(
         <>
         <div className='divArticles'>
@@ -13,8 +13,8 @@ export default function Articles() {
                 
                 <div className='articlesDivText'>
                     <h3 className="articlesH3">Lookism</h3>
-                    <p className="articlesP">Prix: €14,25</p>
-                    <p className="articlesP2">Stock: 3</p>
+                    <p className="articlesP">Prix: €14,25  </p>
+                    <p className="articlesP2">Stock: 3 {stock} </p>
                     <button className="articlesBtn">Acheter</button>
                 </div>
             </div>
@@ -25,8 +25,8 @@ export default function Articles() {
                 
                 <div className='articlesDivText'>
                     <h3 className="articlesH3">WindBreaker</h3>
-                    <p className="articlesP">Prix: €14,25</p>
-                    <p className="articlesP2">Stock: 10</p>
+                    <p className="articlesP">Prix: €14,25  </p>
+                    <p className="articlesP2">Stock: 10 {stock}</p>
                     <button className="articlesBtn">Acheter</button>
                 </div>
             </div>
@@ -37,8 +37,8 @@ export default function Articles() {
 
                 <div className='articlesDivText'>
                     <h3 className="articlesH3">Tower Of God</h3>
-                    <p className="articlesP">Prix: €14,25</p>
-                    <p className="articlesP2">Stock: 6</p>
+                    <p className="articlesP">Prix: €14,25  </p>
+                    <p className="articlesP2">Stock: 6 {stock}</p>
                     <button className="articlesBtn">Acheter</button>
                 </div>
             </div>

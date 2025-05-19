@@ -40,3 +40,13 @@
     font-weight: 200;
     margin-top: 5%;
 }
+.articlesBtn{
+    margin-top: 5%;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.articlesBtn:hover{
+    background-color: black;
+    color: white;
+}
