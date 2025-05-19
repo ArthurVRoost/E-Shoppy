@@ -2,7 +2,8 @@ import './nav.css'
 import Logo from "/src/assets/images/logo.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faTwitter, faPinterestP } from '@fortawesome/free-brands-svg-icons';
-export default function Nav() {
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+export default function Nav({panier}) {
     return(
         <>
         <div className='divNav'>
@@ -20,6 +21,11 @@ export default function Nav() {
                 <FontAwesomeIcon className='navDiv3FA' icon={faInstagram} />
                 <FontAwesomeIcon className='navDiv3FA' icon={faTwitter} />
                 <FontAwesomeIcon className='navDiv3FA' icon={faPinterestP} />
+                <div className='navDiv4' >
+                    <FontAwesomeIcon className='navDiv3FA2' icon={faCartShopping} />
+                    <p>0 {panier} </p>
+                </div>
+                
             </div>
         </div>
         </>
