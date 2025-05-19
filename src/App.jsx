@@ -1,3 +1,4 @@
+// IMPORTS
 import { useState } from 'react'
 import './App.css'
 import Nav from './Components/nav/Nav'
@@ -5,9 +6,10 @@ import Articles, { Lookism } from './Components/articles/Articles'
 import Panier from './Components/panier/Panier'
 import Argent from './Components/argent/Argent'
 import Footer from './Components/Footer/Footer'
-
+// FUNCTION
 function App() {
   const [argent, setArgent] = useState(100)
+  // objet
   const [stocks, setStocks] = useState({
     "lookism" : 3,
     "windbreaker": 10,
@@ -25,8 +27,10 @@ function App() {
   }
 
   const acheterArticle = (article) =>{
+    // [article] permet d'acceder a une propiété de l'objet
     if (stocks[article] > 0 && argent >= prix[article]){
       setStocks({
+        // copie de l'objet avec ...
         ...stocks,
         [article]: stocks[article] -1
       })

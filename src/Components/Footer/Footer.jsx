@@ -1,6 +1,9 @@
+// IMPORTS
 import './footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
+
+// FUNCTION
 export default function Footer() {
     return(
         <>

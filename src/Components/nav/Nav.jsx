@@ -1,8 +1,10 @@
+// IMPORTS
 import './nav.css'
 import Logo from "/src/assets/images/logo.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faTwitter, faPinterestP } from '@fortawesome/free-brands-svg-icons';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+
+// FUNCTION
 export default function Nav({panier}) {
     return(
         <>
