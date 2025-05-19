@@ -8,7 +8,7 @@
     width: 76%;
     margin-left: 12%;
     border-top: 1px solid white;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 .panierDiv3{
     display: flex;
@@ -23,9 +23,10 @@
     padding: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px solid hsla(0, 100%, 50%, 0.518);
 }
 .panierBtn:hover{
-    background-color: black;
+    background-color: hsla(0, 94%, 41%, 0.518);
     color: white;
 }
 

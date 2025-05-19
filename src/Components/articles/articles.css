@@ -11,6 +11,10 @@
     width: 300px;
     border: 1px solid white;
     border-radius: 15px;
+    transition: transform 0.5s ease;
+}
+.articlesDiv1:hover{
+    transform: scale(1.1);
 }
 .articlesImg{
     height: 300px;
@@ -33,23 +37,39 @@
 }
 .articlesH3{
     font-weight: 100;
+    transition: transform 0.5s ease;
+}
+.articlesH3:hover{
+    color: hsla(178, 100%, 50%, 0.518);
+    transform: scale(1.05);
 }
 .articlesP{
     font-weight: 200;
     margin-top: 13%;
+    transition: transform 0.5s ease;
+}
+.articlesP:hover{
+    color:hsla(178, 100%, 50%, 0.518);
+    transform: scale(1.05);
 }
 .articlesP2{
     font-weight: 200;
     margin-top: 5%;
+    transition: transform 0.5s ease;
+}
+.articlesP2:hover{
+    color:hsla(178, 100%, 50%, 0.518);
+    transform: scale(1.05);
 }
 .articlesBtn{
     margin-top: 5%;
     border-radius: 8px;
     padding: 10px 20px;
     cursor: pointer;
+    border: 1px solid hsla(138, 100%, 50%, 0.518) ;
 }
 .articlesBtn:hover{
-    background-color: black;
+    background-color: hsla(138, 88%, 42%, 0.518);
     color: white;
 }
 
