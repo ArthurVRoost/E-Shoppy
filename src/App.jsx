@@ -1,4 +1,4 @@
-import { use, useState } from 'react'
+import { useState } from 'react'
 import './App.css'
 import Nav from './Components/nav/Nav'
 import Articles, { Lookism } from './Components/articles/Articles'

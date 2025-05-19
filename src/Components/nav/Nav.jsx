@@ -17,10 +17,7 @@ export default function Nav({panier}) {
                 <p className='navDiv2P2'>Contact</p>
             </div>
             <div className='navDiv3'>
-                <FontAwesomeIcon className='navDiv3FA' icon={faFacebookF} />
-                <FontAwesomeIcon className='navDiv3FA' icon={faInstagram} />
-                <FontAwesomeIcon className='navDiv3FA' icon={faTwitter} />
-                <FontAwesomeIcon className='navDiv3FA' icon={faPinterestP} />
+                
                 <div className='navDiv4' >
                     <FontAwesomeIcon className='navDiv3FA2' icon={faCartShopping} />
                     <p>{panier} </p>

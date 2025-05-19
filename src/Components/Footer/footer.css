@@ -8,4 +8,8 @@
     margin-left: 12%;
     font-family: "Rubik";
     font-weight: 100;
+    align-items: center;
+}
+.footerDiv{
+    margin-left: 30%;
 }
