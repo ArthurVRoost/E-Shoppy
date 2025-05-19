@@ -11,19 +11,19 @@ function App() {
   const [argent, setArgent] = useState(100)
   // objet
   const [stocks, setStocks] = useState({
-    "lookism" : 3,
-    "windbreaker": 10,
-    "towerofgod": 6
+    lookism : 3,
+    windbreaker: 10,
+    towerofgod: 6
   })
   const [panier, setPanier] = useState({
-    "lookism": 0,
-    "windbreaker": 0,
-    "towerofgod": 0
+    lookism: 0,
+    windbreaker: 0,
+    towerofgod: 0
   })
   const prix = {
-    "lookism" : 14.25,
-    "windbreaker": 14.25,
-    "towerofgod": 14.25
+    lookism : 14.25,
+    windbreaker: 14.25,
+    towerofgod: 14.25
   }
 
   const acheterArticle = (article) =>{
