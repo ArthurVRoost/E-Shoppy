@@ -8,7 +8,7 @@
 .articlesDiv1{
     height: 550px;
     width: 300px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 15px;
 }
 .articlesImg{
@@ -16,6 +16,7 @@
     width: 200px;
     margin-top: 20px;
     transition: transform 0.5s ease;
+    border-radius: 5px;
 }
 .articlesImg:hover{
     transform: scale(1.05);
@@ -53,10 +54,10 @@
 
 .stock-red {
   color: red;
-  font-weight: 100;
+  font-weight: 500;
 }
 
 .stock-orange {
   color: orange;
-  font-weight: 100;
+  font-weight: 500;
 }

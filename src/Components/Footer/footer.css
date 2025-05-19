@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.divFooter{
+    display: flex;
+    justify-content: center;
+    width: 76%;
+    border-top:1px solid rgba(161, 158, 158, 0.542);
+    margin-left: 12%;
+    font-family: "Rubik";
+    font-weight: 100;
+}

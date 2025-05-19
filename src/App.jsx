@@ -4,6 +4,7 @@ import Nav from './Components/nav/Nav'
 import Articles, { Lookism } from './Components/articles/Articles'
 import Panier from './Components/panier/Panier'
 import Argent from './Components/argent/Argent'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   const [argent, setArgent] = useState(100)
@@ -56,6 +57,7 @@ function App() {
       <Articles stocks={stocks} acheterArticle={acheterArticle} prix={prix} />
       <Argent argent={argent}/>
       <Panier panier={panier} rendreArticle={rendreArticle} />
+      <Footer/>
     </>
   )
 }

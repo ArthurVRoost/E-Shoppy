@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 .divNav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-family: "Rubik";
 }
 .navDiv1Img{
     width: 100px;
     height: 100px;
     margin-left: -50%;
+    cursor: pointer;
 }
 .navDiv2{
     display: flex;
@@ -14,12 +18,12 @@
 }
 .navDiv2P1{
     color: grey;
-    font-weight: bold;
+    font-weight: 500;
     cursor: pointer;
     text-decoration: underline;
 }
 .navDiv2P2{
-    font-weight: bold;
+    font-weight: 400;
     cursor: pointer;
 }
 .navDiv3FA{

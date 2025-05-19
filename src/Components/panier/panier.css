@@ -7,7 +7,7 @@
 .divPanier{
     width: 76%;
     margin-left: 12%;
-    border-top: 1px solid black;
+    border-top: 1px solid white;
     margin-top: 3%;
 }
 .panierDiv3{
@@ -16,7 +16,7 @@
     margin-bottom: 3%;
     gap: 15px;
     width: 400px;
-    border: 1px solid black;
+    border: 1px solid white;
     font-family: "Rubik";
 }
 .panierBtn{
