@@ -1,0 +1,21 @@
+.divArticles{
+    display: flex;
+}
+.articlesDiv1{
+    height: 500px;
+    width: 300px;
+    border: 1px solid black;
+    
+}
+.articlesImg{
+    height: 300px;
+    width: 200px;
+}
+.articlesDivImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.articlesDivText{
+    margin-left: 15%;
+}
