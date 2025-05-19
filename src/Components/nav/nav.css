@@ -16,6 +16,7 @@
     color: grey;
     font-weight: bold;
     cursor: pointer;
+    text-decoration: underline;
 }
 .navDiv2P2{
     font-weight: bold;

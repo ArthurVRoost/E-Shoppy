@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.panierImg{
+    height: 100px;
+    width: 70px;
+}
+.divPanier{
+    width: 76%;
+    margin-left: 12%;
+    border-top: 1px solid black;
+    margin-top: 5%;
+}
+.panierDiv3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+    gap: 15px;
+    width: 400px;
+    border: 1px solid black;
+    font-family: "Rubik";
+}
+.panierBtn{
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.panierBtn:hover{
+    background-color: black;
+    color: white;
+}

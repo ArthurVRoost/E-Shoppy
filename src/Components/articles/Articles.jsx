@@ -2,6 +2,10 @@ import './articles.css'
 import Lookism from "/src/assets/images/lookism.webp"
 import WB from "/src/assets/images/windbreaker.webp"
 import TOG from "/src/assets/images/towerofgod.jpg"
+import { useState } from 'react'
+export {Lookism}
+export {WB}
+export {TOG}
 export default function Articles({stock}) {
     return(
         <>
