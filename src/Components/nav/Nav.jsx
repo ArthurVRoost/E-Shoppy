@@ -23,7 +23,7 @@ export default function Nav({panier}) {
                 <FontAwesomeIcon className='navDiv3FA' icon={faPinterestP} />
                 <div className='navDiv4' >
                     <FontAwesomeIcon className='navDiv3FA2' icon={faCartShopping} />
-                    <p>0 {panier} </p>
+                    <p>{panier} </p>
                 </div>
                 
             </div>

@@ -50,3 +50,13 @@
     background-color: black;
     color: white;
 }
+
+.stock-red {
+  color: red;
+  font-weight: 100;
+}
+
+.stock-orange {
+  color: orange;
+  font-weight: 100;
+}
