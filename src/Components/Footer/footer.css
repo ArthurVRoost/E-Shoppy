@@ -9,7 +9,24 @@
     font-family: "Rubik";
     font-weight: 100;
     align-items: center;
+    transition: 0.3s ease;
 }
 .footerDiv{
     margin-left: 30%;
+}
+@media (max-width:576px) {
+    .divFooter{
+        flex-direction: column;
+    }
+    .footerDiv{
+        margin-left: 0;
+    }
+}
+@media (min-width:577px) and (max-width:768px) {
+    .divFooter{
+        flex-direction: column;
+    }
+    .footerDiv{
+        margin-left: 0;
+    }
 }

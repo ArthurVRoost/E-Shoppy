@@ -4,6 +4,7 @@
     justify-content: center;
     gap: 100px;
     margin-top: 5%;
+    transition: 0.3s ease;
 }
 .articlesDiv1{
     height: 550px;
@@ -60,4 +61,23 @@
 .stock-orange {
   color: orange;
   font-weight: 500;
+}
+
+@media (max-width:576px) {
+    .divArticles{
+        flex-direction: column;
+        margin-left: 20%;
+    }
+}
+@media (min-width:577px) and (max-width:768px) {
+    .divArticles{
+        flex-direction: column;
+        margin-left: 30%;
+    }
+}
+@media (min-width:769px) and (max-width:950px) {
+    .divArticles{
+        flex-direction: column;
+        margin-left: 40%;
+    }
 }

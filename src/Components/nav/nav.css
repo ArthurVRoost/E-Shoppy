@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-around;
     font-family: "Rubik";
+    transition: 0.3s ease;
 }
 .navDiv1Img{
     width: 100px;
@@ -43,4 +44,14 @@
 .navDiv3{
     display: flex;
     align-items: center;
+    transition: 0.3s ease;
+}
+@media (max-width:576px) {
+    .divNav{
+        display: flex;
+        justify-content: center;
+    }
+    .navDiv3{
+        margin-left: 2%;
+    }
 }
