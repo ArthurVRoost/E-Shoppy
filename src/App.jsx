@@ -13,9 +13,9 @@ function App() {
     "towerofgod": 6
   })
   const [panier, setPanier] = useState({
-    "looksim": 0,
+    "lookism": 0,
     "windbreaker": 0,
-    "towerofgod": 6
+    "towerofgod": 0
   })
   const prix = {
     "lookism" : 14.25,
@@ -54,7 +54,7 @@ function App() {
     <>
       <Nav/>
       <Articles stocks={stocks} acheterArticle={acheterArticle} prix={prix} />
-      <Argent/>
+      <Argent argent={argent}/>
       <Panier panier={panier} rendreArticle={rendreArticle} />
     </>
   )
