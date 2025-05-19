@@ -1,0 +1,29 @@
+.divNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navDiv1Img{
+    width: 100px;
+    height: 100px;
+    margin-left: -50%;
+}
+.navDiv2{
+    display: flex;
+    gap: 25px;
+}
+.navDiv2P1{
+    color: grey;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navDiv2P2{
+    font-weight: bold;
+    cursor: pointer;
+}
+.navDiv3FA{
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    
+}
